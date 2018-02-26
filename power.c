@@ -2,7 +2,7 @@
 #include <time.h>
 
 //clock_t start,end;
-//double cpu_time_used;
+//double cpu_time_used; :) 
 
 double egyptian_recursive(double a, int b);
 double egyptian_iterative(double a, int b);
