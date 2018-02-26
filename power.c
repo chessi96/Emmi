@@ -13,14 +13,13 @@ double power(double x, int n, int mode);
 
 int main(void) {
 
-  //double v1;
-  int mode=2;
   double x=12.5;
   int n=3;
+  //double v1;
+  for (int mode = 1; mode < 5; mode++) {
+    printf("the power is\n %12.6f \n \n", power(x,n,mode) );
 
-  printf("the power is\n %12.6f \n \n", power(x,n,mode) );
-
-
+}
   return 0;
 }
 
